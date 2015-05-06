@@ -12,6 +12,14 @@ Automatically add visitor as anonymous guest with userId
 ```sh
 meteor add artwells:accounts-guest
 ```
+Removed dependency on accounts-ui package. Must manually install a ui package like:
+```sh
+meteor add accounts-ui
+```
+or
+```sh
+meteor add ian:accounts-ui-bootstrap-3
+```
 and you are done!
 
 
